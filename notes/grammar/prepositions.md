@@ -11,13 +11,13 @@ They do not change form.
 
 Formed when **di, a, da, in, su** combine with a definite article.
 
-|      | il | lo | la | i | gli | le |
-|------|----|----|----|---|------|----|
+|      | il  |  lo   |   la  |  i  |  gli  |  le   |
+|------|-----|-------|-------|-----|-------|-------|
 | di   | del | dello | della | dei | degli | delle |
-| a    | al  | allo  | alla  | ai  | agli  | alle |
+| a    | al  | allo  | alla  | ai  | agli  | alle  |
 | da   | dal | dallo | dalla | dai | dagli | dalle |
 | in   | nel | nello | nella | nei | negli | nelle |
-| con  | col | (*) | (*) | coi | (*) | (*) |
+| con  | col | (*)   | (*)   | coi | (*)   | (*)   |
 | su   | sul | sullo | sulla | sui | sugli | sulle |
 
 (*) The missing forms of con are archaic and almost never used (instead, they are separated "con lo" etc.).
@@ -35,8 +35,8 @@ The two forms col and coi are still somewhat used, but in modern italian often k
 ### a
 1. direction : *vado a Roma, vado al mercato*
 2. indirect object : *parlo a Maria*
-3. small/fixed/not concrete places : *sono a casa, a scuola*
-4. often for specific point in time: *a Natale, a mezzanotte, a 20 anni, a giugno*
+3. functional places / activity-based places (focus on what you do there, not the building): *sono a casa, a scuola*
+4. often for specific point in time / clock time: *a Natale, a mezzanotte, a 20 anni, a giugno, alle otto*
 5. distance : *a 5 km da qui*
 6. fixed manner expressions : *a piedi, a mano, a caso, a voce alta*
 
@@ -75,12 +75,15 @@ The two forms col and coi are still somewhat used, but in modern italian often k
 - in (future time) : *tra due giorni*
 
 ### Partitive (del, della, dei, delle)
-Looks like a contracted preposition but functions differently.
+It is grammatically a normal preposition + article (di + il = del), but here it expresses an unspecified quantity ("some"), not possession.
 
 Meaning:
 - some / any / unspecified quantity
 
-The partitive is generally not used after negation in standard Italian, except when emphasis or contrast is intended. *Non ho pane*
+After negation, Italian usually drops the partitive and uses the noun alone:
+Non ho pane.
+
+The partitive can still appear for contrast or emphasis, but it is less common.
 
 ## Additional Structures
 
@@ -106,9 +109,9 @@ Italian keeps the preposition before *cui*:
 ## Common mistakes (at least for me)
 - Missing article after preposition:  *chiavi della macchina* (not *di macchina*)
 - Overusing "in" for direction: *vado al mercato* (not *in mercato*)
-- Using partitive after negation:  *non ho pane* (not *del*)
+- Using partitive after negation:  *non ho pane*, aber `c'è del pane` (not *del*)
 - Confusing "a" vs "in": cities *a Roma*  vs countries *in Italia*
-- Article omission in locations:  *In frigo* is the standard idiomatic expression in everyday Italian. *Nel frigorifero* is the full form and also correct. Avoid *nel frigo*, which sounds less natural.
+- Article omission in locations:  Both *in frigo* and *nel frigo* are correct and common.  *In frigo* is slightly more idiomatic in everyday speech.
 - Usage of a for cities (not in): vado a Roma, sono a Roma.
 - Transport exception: usually *in* with vehicles (*in macchina, in treno, in autobus*), but *a piedi* and *a cavallo*.
 - Duration with ongoing action: use *da* for actions that started in the past and continue in the present (*Studio italiano da due anni*). Use *per* for completed duration (*Ho studiato per due anni*).
@@ -116,3 +119,4 @@ Italian keeps the preposition before *cui*:
 - Confusing *di* and *da*: use *di* for material (*tavolo di legno*), use *da* for purpose (*macchina da scrivere, occhiali da sole*).
 - Topic with *su*: Italian often uses *su* for "about" (*un libro su Roma, un film sulla guerra*), not *di*.
 - Double prepositions: some expressions require a second preposition (*vicino a, lontano da, prima di, davanti a*).
+- Clock time uses *a* with article: *alle otto, all’una* (not *a otto*, not *in otto*, not *alle una*)
