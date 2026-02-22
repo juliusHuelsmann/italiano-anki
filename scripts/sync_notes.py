@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+import json
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, List, Tuple
@@ -113,7 +114,6 @@ def _split_tags(tags: List[str]) -> Tuple[List[str], List[str]]:
     non_manual = [t for t in tags if not t.startswith(MANUAL_TAG_PREFIX)]
     return manual, non_manual
 
-
 def sync_repo(root: Path) -> None:
     """Sync all CSV notes under notes/ into Anki."""
     _ensure_models()
@@ -121,6 +121,29 @@ def sync_repo(root: Path) -> None:
     csv_notes: List[CsvNote] = []
     for csv_path in (root / "notes").rglob("*.csv"):
         csv_notes.extend(_read_csv_notes(csv_path))
+        print(csv_path)
+
+        fl = csv_path.stem
+        required_fl = root / "practices" / f"50_{fl}.json"
+
+
+        if not required_fl.exists():
+            required_fl.parent.mkdir(parents=True, exist_ok=True)
+            with required_fl.open("w", encoding="utf-8") as f:
+                json.dump(
+                    {
+                        "name": fl.replace("_", " "),
+                        "deck": f"Italiano::Practice::{fl}",
+                        "search": f"deck:Italiano tag:file::{fl}",
+                        "limit": 30,
+                        "order": "random",
+                        "reschedule": True,
+                        "description": "Practice all cards from this specific CSV file.",
+                    },
+                    f,
+                    ensure_ascii=False,
+                    indent=2,
+                )
 
     # Build desired NoteID set
     desired_by_id: Dict[str, CsvNote] = {n.note_id: n for n in csv_notes if n.note_id}
