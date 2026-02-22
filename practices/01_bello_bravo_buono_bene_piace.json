@@ -1,0 +1,9 @@
+{
+  "name": "bello / bravo / buono / bene / piacere",
+  "deck": "Italiano::Practice::bello_bravo_buono_bene_piace",
+  "search": "deck:Italiano tag:file::bello_bravo_buono_bene_piace",
+  "limit": 30,
+  "order": "random",
+  "reschedule": true,
+  "description": "Practice all cards from this specific CSV file."
+}

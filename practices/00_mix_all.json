@@ -1,0 +1,9 @@
+{
+  "name": "Mix All Italiano",
+  "deck": "Italiano::Practice::Mix_All",
+  "search": "deck:Italiano tag:managed::italiano_repo",
+  "limit": 50,
+  "order": "random",
+  "reschedule": true,
+  "description": "Mixed practice across all Italiano repo-managed cards."
+}

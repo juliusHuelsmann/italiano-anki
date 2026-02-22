@@ -1,9 +1,0 @@
-{
-  "name": "A2 Adverbs: bene",
-  "deck": "Italiano::Practice::A2::Adverbs",
-  "search": "deck:Italiano tag:level::A2 tag:adverb",
-  "limit": 20,
-  "order": "random",
-  "reschedule": true,
-  "description": "Adverb practice: bene in common patterns."
-}

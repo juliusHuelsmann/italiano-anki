@@ -4,7 +4,7 @@ This add-on reads `filtered_decks.json` exported by scripts/build_filtered_decks
 creates/updates filtered decks accordingly.
 
 Config:
-- repo_root: path to your anki-italiano repo (default: empty; must be set)
+- root: path to your anki-italiano repo (default: empty; must be set)
 """
 
 from __future__ import annotations
@@ -46,15 +46,15 @@ def _order_to_anki(order: str) -> int:
 def _ensure_repo_path() -> Path:
     """Get repo root from config or raise."""
     cfg = _read_config()
-    repo_root = str(cfg.get("repo_root", "")).strip()
-    if not repo_root:
-        raise RuntimeError("repo_root is not set in add-on config.")
-    return Path(repo_root).expanduser().resolve()
+    root = str(cfg.get("root", "")).strip()
+    if not root:
+        raise RuntimeError("root is not set in add-on config.")
+    return Path(root).expanduser().resolve()
 
 
-def _load_specs(repo_root: Path) -> List[Dict[str, Any]]:
+def _load_specs(root: Path) -> List[Dict[str, Any]]:
     """Load filtered deck specs from repo."""
-    spec_path = repo_root / "build" / "filtered_decks.json"
+    spec_path = root / "filtered_decks.json"
     if not spec_path.exists():
         raise FileNotFoundError(f"Spec file not found: {spec_path} (run scripts/build_filtered_decks.py first)")
     return json.loads(spec_path.read_text(encoding="utf-8"))
@@ -86,8 +86,8 @@ def _create_or_update_filtered_deck(spec: Dict[str, Any]) -> None:
 
 def build_all_filtered_decks() -> None:
     """Build all filtered decks from specs."""
-    repo_root = _ensure_repo_path()
-    specs = _load_specs(repo_root)
+    root = _ensure_repo_path()
+    specs = _load_specs(root)
 
     errors: List[str] = []
     for spec in specs:

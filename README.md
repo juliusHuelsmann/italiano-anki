@@ -29,7 +29,7 @@ anki-desktop
 - `Tools/Add-ons/Get Add-ons/`: enter (Code=2055492159)
 - `Tools/Add-ons/View files/`: Copy the repo folder `addon/italiano_practice_builder` into the file addons21
   - Check for updates
-  - Set `repo_root` to your the repo root path (e.gthe file containing this readme).
+  - [Optional] Adjust `target` to whatever anki complains does not exist during the build process (you'll see that later)
 
 
 ### 3) Create deck
