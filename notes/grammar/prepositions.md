@@ -120,3 +120,4 @@ Italian keeps the preposition before *cui*:
 - Topic with *su*: Italian often uses *su* for "about" (*un libro su Roma, un film sulla guerra*), not *di*.
 - Double prepositions: some expressions require a second preposition (*vicino a, lontano da, prima di, davanti a*).
 - Clock time uses *a* with article: *alle otto, all’una* (not *a otto*, not *in otto*, not *alle una*)
+- Vado al supermercato, but vado in panetteria (more used: dal panettiere). (small traditional shops often with in, institutions (bar, mercato, supermercato, ...) with al
