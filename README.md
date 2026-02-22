@@ -11,6 +11,8 @@ Requirements (all free):
 - AnkiConnect add-on (Anki must be running for scripts to talk to it)
 - Python 3.10+
 
+Developed with `Anki 25.09.2`.
+
 ## Initial setup Ubuntu
 
 ### 1) Install Anki
