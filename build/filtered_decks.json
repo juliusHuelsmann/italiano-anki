@@ -1,0 +1,29 @@
+[
+  {
+    "name": "A2 Nuance: bello/bravo/buono/bene/piacere",
+    "deck": "Italiano::Practice::A2::Nuance",
+    "search": "deck:Italiano tag:level::A2 tag:file::bello_bravo_buono_bene_piace",
+    "limit": 30,
+    "order": "random",
+    "reschedule": true,
+    "description": "Practice the nuance in this single file (A2)."
+  },
+  {
+    "name": "A2 Attraction (piacere + bello)",
+    "deck": "Italiano::Practice::A2::Attraction",
+    "search": "deck:Italiano tag:level::A2 (tag:attraction OR tag:piacere)",
+    "limit": 20,
+    "order": "random",
+    "reschedule": true,
+    "description": "Focus on attraction-related phrasing (piacere, bello)."
+  },
+  {
+    "name": "A2 Adverbs: bene",
+    "deck": "Italiano::Practice::A2::Adverbs",
+    "search": "deck:Italiano tag:level::A2 tag:adverb",
+    "limit": 20,
+    "order": "random",
+    "reschedule": true,
+    "description": "Adverb practice: bene in common patterns."
+  }
+]

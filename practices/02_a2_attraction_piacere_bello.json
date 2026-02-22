@@ -1,0 +1,9 @@
+{
+  "name": "A2 Attraction (piacere + bello)",
+  "deck": "Italiano::Practice::A2::Attraction",
+  "search": "deck:Italiano tag:level::A2 (tag:attraction OR tag:piacere)",
+  "limit": 20,
+  "order": "random",
+  "reschedule": true,
+  "description": "Focus on attraction-related phrasing (piacere, bello)."
+}

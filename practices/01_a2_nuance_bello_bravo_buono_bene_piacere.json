@@ -1,0 +1,9 @@
+{
+  "name": "A2 Nuance: bello/bravo/buono/bene/piacere",
+  "deck": "Italiano::Practice::A2::Nuance",
+  "search": "deck:Italiano tag:level::A2 tag:file::bello_bravo_buono_bene_piace",
+  "limit": 30,
+  "order": "random",
+  "reschedule": true,
+  "description": "Practice the nuance in this single file (A2)."
+}
