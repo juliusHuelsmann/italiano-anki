@@ -1,0 +1,9 @@
+{
+  "name": "prepositions",
+  "deck": "Italiano::Practice::prepositions",
+  "search": "deck:Italiano tag:file::prepositions",
+  "limit": 30,
+  "order": "random",
+  "reschedule": true,
+  "description": "Practice all cards from this specific CSV file."
+}
